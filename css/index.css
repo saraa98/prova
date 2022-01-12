@@ -1,100 +1,3175 @@
-html {
-  font-size: 16px; /* Gutter */
+/*! Basscss | http://basscss.com | MIT License */
+/* line 3, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h1 {
+  font-size: 2rem;
 }
 
+/* line 7, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h2 {
+  font-size: 1.5rem;
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h3 {
+  font-size: 1.25rem;
+}
+
+/* line 15, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h4 {
+  font-size: 1rem;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h5 {
+  font-size: .875rem;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.h6 {
+  font-size: .75rem;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.font-family-inherit {
+  font-family: inherit;
+}
+
+/* line 31, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.font-size-inherit {
+  font-size: inherit;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+/* line 39, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.bold {
+  font-weight: 700;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.regular {
+  font-weight: 400;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+/* line 56, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.left-align {
+  text-align: left;
+}
+
+/* line 60, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.center {
+  text-align: center;
+}
+
+/* line 64, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.right-align {
+  text-align: right;
+}
+
+/* line 68, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify {
+  text-align: justify;
+}
+
+/* line 72, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/* line 76, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.break-word {
+  word-wrap: break-word;
+}
+
+/* line 80, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.line-height-1 {
+  line-height: 1;
+}
+
+/* line 84, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.line-height-2 {
+  line-height: 1.125;
+}
+
+/* line 88, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.line-height-3 {
+  line-height: 1.25;
+}
+
+/* line 92, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.line-height-4 {
+  line-height: 1.5;
+}
+
+/* line 96, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.list-style-none {
+  list-style: none;
+}
+
+/* line 100, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 104, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 111, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 116, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.inline {
+  display: inline;
+}
+
+/* line 120, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.block {
+  display: block;
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 128, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.table {
+  display: table;
+}
+
+/* line 132, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.table-cell {
+  display: table-cell;
+}
+
+/* line 136, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.overflow-scroll {
+  overflow: scroll;
+}
+
+/* line 144, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.overflow-auto {
+  overflow: auto;
+}
+
+/* line 148, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+
+/* line 154, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 158, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.left {
+  float: left;
+}
+
+/* line 162, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.right {
+  float: right;
+}
+
+/* line 166, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.fit {
+  max-width: 100%;
+}
+
+/* line 170, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.max-width-1 {
+  max-width: 24rem;
+}
+
+/* line 174, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.max-width-2 {
+  max-width: 32rem;
+}
+
+/* line 178, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.max-width-3 {
+  max-width: 48rem;
+}
+
+/* line 182, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.max-width-4 {
+  max-width: 64rem;
+}
+
+/* line 186, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-box {
+  box-sizing: border-box;
+}
+
+/* line 190, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.align-baseline {
+  vertical-align: baseline;
+}
+
+/* line 194, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.align-top {
+  vertical-align: top;
+}
+
+/* line 198, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.align-middle {
+  vertical-align: middle;
+}
+
+/* line 202, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.align-bottom {
+  vertical-align: bottom;
+}
+
+/* line 206, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.m0 {
+  margin: 0;
+}
+
+/* line 210, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mt0 {
+  margin-top: 0;
+}
+
+/* line 214, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr0 {
+  margin-right: 0;
+}
+
+/* line 218, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mb0 {
+  margin-bottom: 0;
+}
+
+/* line 222, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml0,
+.mx0 {
+  margin-left: 0;
+}
+
+/* line 227, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx0 {
+  margin-right: 0;
+}
+
+/* line 231, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.my0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 236, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.m1 {
+  margin: .5rem;
+}
+
+/* line 240, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mt1 {
+  margin-top: .5rem;
+}
+
+/* line 244, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr1 {
+  margin-right: .5rem;
+}
+
+/* line 248, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mb1 {
+  margin-bottom: .5rem;
+}
+
+/* line 252, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml1,
+.mx1 {
+  margin-left: .5rem;
+}
+
+/* line 257, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx1 {
+  margin-right: .5rem;
+}
+
+/* line 261, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.my1 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+/* line 266, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.m2 {
+  margin: 1rem;
+}
+
+/* line 270, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mt2 {
+  margin-top: 1rem;
+}
+
+/* line 274, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr2 {
+  margin-right: 1rem;
+}
+
+/* line 278, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mb2 {
+  margin-bottom: 1rem;
+}
+
+/* line 282, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml2,
+.mx2 {
+  margin-left: 1rem;
+}
+
+/* line 287, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx2 {
+  margin-right: 1rem;
+}
+
+/* line 291, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.my2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* line 296, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.m3 {
+  margin: 2rem;
+}
+
+/* line 300, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mt3 {
+  margin-top: 2rem;
+}
+
+/* line 304, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr3 {
+  margin-right: 2rem;
+}
+
+/* line 308, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mb3 {
+  margin-bottom: 2rem;
+}
+
+/* line 312, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml3,
+.mx3 {
+  margin-left: 2rem;
+}
+
+/* line 317, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx3 {
+  margin-right: 2rem;
+}
+
+/* line 321, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.my3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 326, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.m4 {
+  margin: 4rem;
+}
+
+/* line 330, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mt4 {
+  margin-top: 4rem;
+}
+
+/* line 334, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr4 {
+  margin-right: 4rem;
+}
+
+/* line 338, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+/* line 342, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml4,
+.mx4 {
+  margin-left: 4rem;
+}
+
+/* line 347, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx4 {
+  margin-right: 4rem;
+}
+
+/* line 351, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.my4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* line 356, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mxn1 {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+}
+
+/* line 361, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mxn2 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+/* line 366, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mxn3 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+/* line 371, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+
+/* line 376, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.ml-auto {
+  margin-left: auto;
+}
+
+/* line 380, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mr-auto,
+.mx-auto {
+  margin-right: auto;
+}
+
+/* line 385, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.mx-auto {
+  margin-left: auto;
+}
+
+/* line 389, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.p0 {
+  padding: 0;
+}
+
+/* line 393, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pt0 {
+  padding-top: 0;
+}
+
+/* line 397, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pr0 {
+  padding-right: 0;
+}
+
+/* line 401, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pb0 {
+  padding-bottom: 0;
+}
+
+/* line 405, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pl0,
+.px0 {
+  padding-left: 0;
+}
+
+/* line 410, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.px0 {
+  padding-right: 0;
+}
+
+/* line 414, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.py0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 419, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.p1 {
+  padding: .5rem;
+}
+
+/* line 423, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pt1 {
+  padding-top: .5rem;
+}
+
+/* line 427, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pr1 {
+  padding-right: .5rem;
+}
+
+/* line 431, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pb1 {
+  padding-bottom: .5rem;
+}
+
+/* line 435, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pl1 {
+  padding-left: .5rem;
+}
+
+/* line 439, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.py1 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/* line 444, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.px1 {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+/* line 449, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.p2 {
+  padding: 1rem;
+}
+
+/* line 453, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pt2 {
+  padding-top: 1rem;
+}
+
+/* line 457, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pr2 {
+  padding-right: 1rem;
+}
+
+/* line 461, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pb2 {
+  padding-bottom: 1rem;
+}
+
+/* line 465, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pl2 {
+  padding-left: 1rem;
+}
+
+/* line 469, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.py2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* line 474, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.px2 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* line 479, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.p3 {
+  padding: 2rem;
+}
+
+/* line 483, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pt3 {
+  padding-top: 2rem;
+}
+
+/* line 487, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pr3 {
+  padding-right: 2rem;
+}
+
+/* line 491, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pb3 {
+  padding-bottom: 2rem;
+}
+
+/* line 495, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pl3 {
+  padding-left: 2rem;
+}
+
+/* line 499, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.py3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* line 504, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.px3 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/* line 509, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.p4 {
+  padding: 4rem;
+}
+
+/* line 513, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pt4 {
+  padding-top: 4rem;
+}
+
+/* line 517, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pr4 {
+  padding-right: 4rem;
+}
+
+/* line 521, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pb4 {
+  padding-bottom: 4rem;
+}
+
+/* line 525, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.pl4 {
+  padding-left: 4rem;
+}
+
+/* line 529, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* line 534, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* line 539, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col {
+  float: left;
+}
+
+/* line 543, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col,
+.col-right {
+  box-sizing: border-box;
+}
+
+/* line 548, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-right {
+  float: right;
+}
+
+/* line 552, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-1 {
+  width: 8.33333%;
+}
+
+/* line 556, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-2 {
+  width: 16.66667%;
+}
+
+/* line 560, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-3 {
+  width: 25%;
+}
+
+/* line 564, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-4 {
+  width: 33.33333%;
+}
+
+/* line 568, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-5 {
+  width: 41.66667%;
+}
+
+/* line 572, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-6 {
+  width: 50%;
+}
+
+/* line 576, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-7 {
+  width: 58.33333%;
+}
+
+/* line 580, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-8 {
+  width: 66.66667%;
+}
+
+/* line 584, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-9 {
+  width: 75%;
+}
+
+/* line 588, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-10 {
+  width: 83.33333%;
+}
+
+/* line 592, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-11 {
+  width: 91.66667%;
+}
+
+/* line 596, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.col-12 {
+  width: 100%;
+}
+
+@media (min-width: 40em) {
+  /* line 601, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col {
+    float: left;
+    box-sizing: border-box;
+  }
+  /* line 605, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+  /* line 609, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-1 {
+    width: 8.33333%;
+  }
+  /* line 612, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-2 {
+    width: 16.66667%;
+  }
+  /* line 615, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-3 {
+    width: 25%;
+  }
+  /* line 618, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-4 {
+    width: 33.33333%;
+  }
+  /* line 621, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-5 {
+    width: 41.66667%;
+  }
+  /* line 624, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-6 {
+    width: 50%;
+  }
+  /* line 627, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-7 {
+    width: 58.33333%;
+  }
+  /* line 630, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-8 {
+    width: 66.66667%;
+  }
+  /* line 633, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-9 {
+    width: 75%;
+  }
+  /* line 636, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-10 {
+    width: 83.33333%;
+  }
+  /* line 639, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-11 {
+    width: 91.66667%;
+  }
+  /* line 642, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-col-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 52em) {
+  /* line 648, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col {
+    float: left;
+    box-sizing: border-box;
+  }
+  /* line 652, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+  /* line 656, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-1 {
+    width: 8.33333%;
+  }
+  /* line 659, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-2 {
+    width: 16.66667%;
+  }
+  /* line 662, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-3 {
+    width: 25%;
+  }
+  /* line 665, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-4 {
+    width: 33.33333%;
+  }
+  /* line 668, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-5 {
+    width: 41.66667%;
+  }
+  /* line 671, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-6 {
+    width: 50%;
+  }
+  /* line 674, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-7 {
+    width: 58.33333%;
+  }
+  /* line 677, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-8 {
+    width: 66.66667%;
+  }
+  /* line 680, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-9 {
+    width: 75%;
+  }
+  /* line 683, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-10 {
+    width: 83.33333%;
+  }
+  /* line 686, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-11 {
+    width: 91.66667%;
+  }
+  /* line 689, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-col-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 695, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col {
+    float: left;
+    box-sizing: border-box;
+  }
+  /* line 699, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-right {
+    float: right;
+    box-sizing: border-box;
+  }
+  /* line 703, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-1 {
+    width: 8.33333%;
+  }
+  /* line 706, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-2 {
+    width: 16.66667%;
+  }
+  /* line 709, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-3 {
+    width: 25%;
+  }
+  /* line 712, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-4 {
+    width: 33.33333%;
+  }
+  /* line 715, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-5 {
+    width: 41.66667%;
+  }
+  /* line 718, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-6 {
+    width: 50%;
+  }
+  /* line 721, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-7 {
+    width: 58.33333%;
+  }
+  /* line 724, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-8 {
+    width: 66.66667%;
+  }
+  /* line 727, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-9 {
+    width: 75%;
+  }
+  /* line 730, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-10 {
+    width: 83.33333%;
+  }
+  /* line 733, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-11 {
+    width: 91.66667%;
+  }
+  /* line 736, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-col-12 {
+    width: 100%;
+  }
+}
+
+/* line 741, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 40em) {
+  /* line 749, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 52em) {
+  /* line 758, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 767, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* line 775, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 783, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.flex-wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 789, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.items-start {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  -ms-grid-row-align: flex-start;
+  align-items: flex-start;
+}
+
+/* line 797, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.items-end {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  -ms-grid-row-align: flex-end;
+  align-items: flex-end;
+}
+
+/* line 805, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.items-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+
+/* line 813, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.items-baseline {
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  -ms-grid-row-align: baseline;
+  align-items: baseline;
+}
+
+/* line 821, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.items-stretch {
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-items: stretch;
+}
+
+/* line 829, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.self-start {
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+/* line 835, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.self-end {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+/* line 841, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.self-center {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+}
+
+/* line 847, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.self-baseline {
+  -webkit-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+}
+
+/* line 853, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.self-stretch {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+/* line 859, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify-start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+/* line 866, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify-end {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+/* line 873, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 880, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify-between {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 887, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.justify-around {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/* line 893, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-start {
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+/* line 899, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-end {
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+
+/* line 905, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-center {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+/* line 911, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-between {
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between;
+}
+
+/* line 917, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-around {
+  -webkit-align-content: space-around;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+}
+
+/* line 923, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.content-stretch {
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+/* line 929, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.flex-auto {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* line 938, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.flex-none {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+}
+
+/* line 945, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.order-0 {
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+}
+
+/* line 952, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.order-1 {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+/* line 959, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.order-2 {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+/* line 966, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.order-3 {
+  -webkit-box-ordinal-group: 4;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+/* line 973, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.order-last {
+  -webkit-box-ordinal-group: 100000;
+  -webkit-order: 99999;
+  -ms-flex-order: 99999;
+  order: 99999;
+}
+
+/* line 980, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.relative {
+  position: relative;
+}
+
+/* line 984, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 988, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 992, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.top-0 {
+  top: 0;
+}
+
+/* line 996, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.right-0 {
+  right: 0;
+}
+
+/* line 1000, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.bottom-0 {
+  bottom: 0;
+}
+
+/* line 1004, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.left-0 {
+  left: 0;
+}
+
+/* line 1008, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.z1 {
+  z-index: 1;
+}
+
+/* line 1012, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.z2 {
+  z-index: 2;
+}
+
+/* line 1016, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.z3 {
+  z-index: 3;
+}
+
+/* line 1020, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.z4 {
+  z-index: 4;
+}
+
+/* line 1024, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* line 1029, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+/* line 1034, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-right {
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+/* line 1039, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+/* line 1044, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-left {
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+
+/* line 1049, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.border-none {
+  border: 0;
+}
+
+/* line 1053, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.rounded {
+  border-radius: 3px;
+}
+
+/* line 1057, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.circle {
+  border-radius: 50%;
+}
+
+/* line 1061, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.rounded-top {
+  border-radius: 3px 3px 0 0;
+}
+
+/* line 1065, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.rounded-right {
+  border-radius: 0 3px 3px 0;
+}
+
+/* line 1069, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.rounded-bottom {
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 1073, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.rounded-left {
+  border-radius: 3px 0 0 3px;
+}
+
+/* line 1077, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.not-rounded {
+  border-radius: 0;
+}
+
+/* line 1081, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media (max-width: 40em) {
+  /* line 1090, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .xs-hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 40em) and (max-width: 52em) {
+  /* line 1096, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .sm-hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 52em) and (max-width: 64em) {
+  /* line 1102, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .md-hide {
+    display: none !important;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 1108, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+  .lg-hide {
+    display: none !important;
+  }
+}
+
+/* line 1113, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_basscss.min.scss */
+.display-none {
+  display: none !important;
+}
+
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/* line 14, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+/* line 30, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+/* line 44, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+/* line 59, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 72, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 82, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+/* line 98, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+/* line 112, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+/* line 131, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+/* line 146, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 162, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+/* line 168, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  /* line 196, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  /* line 206, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  /* line 211, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+  /* line 215, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  /* line 223, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+  /* line 228, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  pre {
+    white-space: pre-wrap !important;
+  }
+  /* line 232, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  /* line 242, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  thead {
+    display: table-header-group;
+  }
+  /* line 246, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  /* line 251, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  /* line 258, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_main.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
 body {
+  margin: 0;
+}
 
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* Basscss Responsive Margin */
+@media (min-width: 40em) {
+  /* line 5, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-m0 {
+    margin: 0;
+  }
+  /* line 6, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mt0 {
+    margin-top: 0;
+  }
+  /* line 7, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr0 {
+    margin-right: 0;
+  }
+  /* line 8, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mb0 {
+    margin-bottom: 0;
+  }
+  /* line 9, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml0 {
+    margin-left: 0;
+  }
+  /* line 10, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 11, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-m1 {
+    margin: .5rem;
+  }
+  /* line 14, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mt1 {
+    margin-top: .5rem;
+  }
+  /* line 15, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr1 {
+    margin-right: .5rem;
+  }
+  /* line 16, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mb1 {
+    margin-bottom: .5rem;
+  }
+  /* line 17, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml1 {
+    margin-left: .5rem;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx1 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  /* line 19, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-my1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  /* line 21, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-m2 {
+    margin: 1rem;
+  }
+  /* line 22, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mt2 {
+    margin-top: 1rem;
+  }
+  /* line 23, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr2 {
+    margin-right: 1rem;
+  }
+  /* line 24, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mb2 {
+    margin-bottom: 1rem;
+  }
+  /* line 25, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml2 {
+    margin-left: 1rem;
+  }
+  /* line 26, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /* line 27, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 29, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-m3 {
+    margin: 2rem;
+  }
+  /* line 30, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mt3 {
+    margin-top: 2rem;
+  }
+  /* line 31, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr3 {
+    margin-right: 2rem;
+  }
+  /* line 32, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mb3 {
+    margin-bottom: 2rem;
+  }
+  /* line 33, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml3 {
+    margin-left: 2rem;
+  }
+  /* line 34, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  /* line 35, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  /* line 37, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-m4 {
+    margin: 4rem;
+  }
+  /* line 38, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mt4 {
+    margin-top: 4rem;
+  }
+  /* line 39, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr4 {
+    margin-right: 4rem;
+  }
+  /* line 40, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mb4 {
+    margin-bottom: 4rem;
+  }
+  /* line 41, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml4 {
+    margin-left: 4rem;
+  }
+  /* line 42, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  /* line 43, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  /* line 45, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mxn1 {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+  /* line 46, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  /* line 47, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  /* line 48, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+  /* line 50, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-ml-auto {
+    margin-left: auto;
+  }
+  /* line 51, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mr-auto {
+    margin-right: auto;
+  }
+  /* line 52, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .sm-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 52em) {
+  /* line 58, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-m0 {
+    margin: 0;
+  }
+  /* line 59, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mt0 {
+    margin-top: 0;
+  }
+  /* line 60, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr0 {
+    margin-right: 0;
+  }
+  /* line 61, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mb0 {
+    margin-bottom: 0;
+  }
+  /* line 62, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml0 {
+    margin-left: 0;
+  }
+  /* line 63, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 64, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 66, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-m1 {
+    margin: .5rem;
+  }
+  /* line 67, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mt1 {
+    margin-top: .5rem;
+  }
+  /* line 68, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr1 {
+    margin-right: .5rem;
+  }
+  /* line 69, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mb1 {
+    margin-bottom: .5rem;
+  }
+  /* line 70, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml1 {
+    margin-left: .5rem;
+  }
+  /* line 71, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx1 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  /* line 72, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-my1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  /* line 74, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-m2 {
+    margin: 1rem;
+  }
+  /* line 75, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mt2 {
+    margin-top: 1rem;
+  }
+  /* line 76, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr2 {
+    margin-right: 1rem;
+  }
+  /* line 77, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mb2 {
+    margin-bottom: 1rem;
+  }
+  /* line 78, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml2 {
+    margin-left: 1rem;
+  }
+  /* line 79, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /* line 80, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 82, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-m3 {
+    margin: 2rem;
+  }
+  /* line 83, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mt3 {
+    margin-top: 2rem;
+  }
+  /* line 84, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr3 {
+    margin-right: 2rem;
+  }
+  /* line 85, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mb3 {
+    margin-bottom: 2rem;
+  }
+  /* line 86, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml3 {
+    margin-left: 2rem;
+  }
+  /* line 87, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  /* line 88, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  /* line 90, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-m4 {
+    margin: 4rem;
+  }
+  /* line 91, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mt4 {
+    margin-top: 4rem;
+  }
+  /* line 92, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr4 {
+    margin-right: 4rem;
+  }
+  /* line 93, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mb4 {
+    margin-bottom: 4rem;
+  }
+  /* line 94, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml4 {
+    margin-left: 4rem;
+  }
+  /* line 95, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  /* line 96, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  /* line 98, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mxn1 {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+  /* line 99, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  /* line 100, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  /* line 101, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+  /* line 103, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-ml-auto {
+    margin-left: auto;
+  }
+  /* line 104, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mr-auto {
+    margin-right: auto;
+  }
+  /* line 105, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .md-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 111, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-m0 {
+    margin: 0;
+  }
+  /* line 112, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mt0 {
+    margin-top: 0;
+  }
+  /* line 113, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr0 {
+    margin-right: 0;
+  }
+  /* line 114, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mb0 {
+    margin-bottom: 0;
+  }
+  /* line 115, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml0 {
+    margin-left: 0;
+  }
+  /* line 116, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx0 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 117, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-my0 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 119, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-m1 {
+    margin: .5rem;
+  }
+  /* line 120, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mt1 {
+    margin-top: .5rem;
+  }
+  /* line 121, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr1 {
+    margin-right: .5rem;
+  }
+  /* line 122, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mb1 {
+    margin-bottom: .5rem;
+  }
+  /* line 123, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml1 {
+    margin-left: .5rem;
+  }
+  /* line 124, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx1 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+  /* line 125, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-my1 {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  /* line 127, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-m2 {
+    margin: 1rem;
+  }
+  /* line 128, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mt2 {
+    margin-top: 1rem;
+  }
+  /* line 129, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr2 {
+    margin-right: 1rem;
+  }
+  /* line 130, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mb2 {
+    margin-bottom: 1rem;
+  }
+  /* line 131, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml2 {
+    margin-left: 1rem;
+  }
+  /* line 132, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  /* line 133, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-my2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* line 135, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-m3 {
+    margin: 2rem;
+  }
+  /* line 136, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mt3 {
+    margin-top: 2rem;
+  }
+  /* line 137, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr3 {
+    margin-right: 2rem;
+  }
+  /* line 138, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mb3 {
+    margin-bottom: 2rem;
+  }
+  /* line 139, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml3 {
+    margin-left: 2rem;
+  }
+  /* line 140, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx3 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  /* line 141, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-my3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  /* line 143, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-m4 {
+    margin: 4rem;
+  }
+  /* line 144, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mt4 {
+    margin-top: 4rem;
+  }
+  /* line 145, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr4 {
+    margin-right: 4rem;
+  }
+  /* line 146, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mb4 {
+    margin-bottom: 4rem;
+  }
+  /* line 147, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml4 {
+    margin-left: 4rem;
+  }
+  /* line 148, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx4 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  /* line 149, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-my4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  /* line 151, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mxn1 {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+  }
+  /* line 152, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mxn2 {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+  /* line 153, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mxn3 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  /* line 154, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mxn4 {
+    margin-left: -4rem;
+    margin-right: -4rem;
+  }
+  /* line 156, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-ml-auto {
+    margin-left: auto;
+  }
+  /* line 157, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mr-auto {
+    margin-right: auto;
+  }
+  /* line 158, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-margin.scss */
+  .lg-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Basscss Responsive Padding */
+@media (min-width: 40em) {
+  /* line 5, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-p0 {
+    padding: 0;
+  }
+  /* line 6, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pt0 {
+    padding-top: 0;
+  }
+  /* line 7, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pr0 {
+    padding-right: 0;
+  }
+  /* line 8, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pb0 {
+    padding-bottom: 0;
+  }
+  /* line 9, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pl0 {
+    padding-left: 0;
+  }
+  /* line 10, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 11, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-p1 {
+    padding: .5rem;
+  }
+  /* line 14, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pt1 {
+    padding-top: .5rem;
+  }
+  /* line 15, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pr1 {
+    padding-right: .5rem;
+  }
+  /* line 16, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pb1 {
+    padding-bottom: .5rem;
+  }
+  /* line 17, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pl1 {
+    padding-left: .5rem;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-px1 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  /* line 19, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-py1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  /* line 21, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-p2 {
+    padding: 1rem;
+  }
+  /* line 22, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pt2 {
+    padding-top: 1rem;
+  }
+  /* line 23, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pr2 {
+    padding-right: 1rem;
+  }
+  /* line 24, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pb2 {
+    padding-bottom: 1rem;
+  }
+  /* line 25, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pl2 {
+    padding-left: 1rem;
+  }
+  /* line 26, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 27, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  /* line 29, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-p3 {
+    padding: 2rem;
+  }
+  /* line 30, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pt3 {
+    padding-top: 2rem;
+  }
+  /* line 31, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pr3 {
+    padding-right: 2rem;
+  }
+  /* line 32, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pb3 {
+    padding-bottom: 2rem;
+  }
+  /* line 33, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pl3 {
+    padding-left: 2rem;
+  }
+  /* line 34, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 35, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /* line 37, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-p4 {
+    padding: 4rem;
+  }
+  /* line 38, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pt4 {
+    padding-top: 4rem;
+  }
+  /* line 39, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pr4 {
+    padding-right: 4rem;
+  }
+  /* line 40, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pb4 {
+    padding-bottom: 4rem;
+  }
+  /* line 41, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-pl4 {
+    padding-left: 4rem;
+  }
+  /* line 42, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 43, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .sm-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 52em) {
+  /* line 49, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-p0 {
+    padding: 0;
+  }
+  /* line 50, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pt0 {
+    padding-top: 0;
+  }
+  /* line 51, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pr0 {
+    padding-right: 0;
+  }
+  /* line 52, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pb0 {
+    padding-bottom: 0;
+  }
+  /* line 53, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pl0 {
+    padding-left: 0;
+  }
+  /* line 54, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 55, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 57, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-p1 {
+    padding: .5rem;
+  }
+  /* line 58, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pt1 {
+    padding-top: .5rem;
+  }
+  /* line 59, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pr1 {
+    padding-right: .5rem;
+  }
+  /* line 60, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pb1 {
+    padding-bottom: .5rem;
+  }
+  /* line 61, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pl1 {
+    padding-left: .5rem;
+  }
+  /* line 62, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-px1 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  /* line 63, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-py1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  /* line 65, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-p2 {
+    padding: 1rem;
+  }
+  /* line 66, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pt2 {
+    padding-top: 1rem;
+  }
+  /* line 67, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pr2 {
+    padding-right: 1rem;
+  }
+  /* line 68, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pb2 {
+    padding-bottom: 1rem;
+  }
+  /* line 69, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pl2 {
+    padding-left: 1rem;
+  }
+  /* line 70, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 71, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  /* line 73, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-p3 {
+    padding: 2rem;
+  }
+  /* line 74, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pt3 {
+    padding-top: 2rem;
+  }
+  /* line 75, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pr3 {
+    padding-right: 2rem;
+  }
+  /* line 76, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pb3 {
+    padding-bottom: 2rem;
+  }
+  /* line 77, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pl3 {
+    padding-left: 2rem;
+  }
+  /* line 78, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 79, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /* line 81, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-p4 {
+    padding: 4rem;
+  }
+  /* line 82, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pt4 {
+    padding-top: 4rem;
+  }
+  /* line 83, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pr4 {
+    padding-right: 4rem;
+  }
+  /* line 84, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pb4 {
+    padding-bottom: 4rem;
+  }
+  /* line 85, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-pl4 {
+    padding-left: 4rem;
+  }
+  /* line 86, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 87, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .md-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 64em) {
+  /* line 93, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-p0 {
+    padding: 0;
+  }
+  /* line 94, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pt0 {
+    padding-top: 0;
+  }
+  /* line 95, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pr0 {
+    padding-right: 0;
+  }
+  /* line 96, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pb0 {
+    padding-bottom: 0;
+  }
+  /* line 97, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pl0 {
+    padding-left: 0;
+  }
+  /* line 98, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-px0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* line 99, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  /* line 101, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-p1 {
+    padding: .5rem;
+  }
+  /* line 102, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pt1 {
+    padding-top: .5rem;
+  }
+  /* line 103, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pr1 {
+    padding-right: .5rem;
+  }
+  /* line 104, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pb1 {
+    padding-bottom: .5rem;
+  }
+  /* line 105, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pl1 {
+    padding-left: .5rem;
+  }
+  /* line 106, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-px1 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  /* line 107, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-py1 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  /* line 109, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-p2 {
+    padding: 1rem;
+  }
+  /* line 110, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pt2 {
+    padding-top: 1rem;
+  }
+  /* line 111, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pr2 {
+    padding-right: 1rem;
+  }
+  /* line 112, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pb2 {
+    padding-bottom: 1rem;
+  }
+  /* line 113, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pl2 {
+    padding-left: 1rem;
+  }
+  /* line 114, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-px2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* line 115, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-py2 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  /* line 117, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-p3 {
+    padding: 2rem;
+  }
+  /* line 118, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pt3 {
+    padding-top: 2rem;
+  }
+  /* line 119, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pr3 {
+    padding-right: 2rem;
+  }
+  /* line 120, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pb3 {
+    padding-bottom: 2rem;
+  }
+  /* line 121, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pl3 {
+    padding-left: 2rem;
+  }
+  /* line 122, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-px3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  /* line 123, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-py3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  /* line 125, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-p4 {
+    padding: 4rem;
+  }
+  /* line 126, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pt4 {
+    padding-top: 4rem;
+  }
+  /* line 127, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pr4 {
+    padding-right: 4rem;
+  }
+  /* line 128, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pb4 {
+    padding-bottom: 4rem;
+  }
+  /* line 129, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-pl4 {
+    padding-left: 4rem;
+  }
+  /* line 130, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-px4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  /* line 131, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/_responsive-padding.scss */
+  .lg-py4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+/* line 6, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+html {
+  font-size: 16px;
+  /* Gutter */
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+body {
   font-family: 'Nunito Sans', sans-serif;
-
-  font-size: 1.125rem; /* 1rem = 16px */
-  line-height: 1.4; /* 140% della dimensione del font */
+  font-size: 1.125rem;
+  /* 1rem = 16px */
+  line-height: 1.4;
+  /* 140% della dimensione del font */
   font-weight: 300;
-
-  text-rendering: optimizeSpeed; /* Aumenta l'accuratezza del rendering del font  */
-
+  text-rendering: optimizeSpeed;
+  /* Aumenta l'accuratezza del rendering del font  */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.section_home{
+/* line 26, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_home {
   height: 100vh;
-  background-image: url('https://hotblack.design/wp-content/uploads/2020/11/10_JLL_OFFICE_Detail.jpg');
+  background-image: url("https://hotblack.design/wp-content/uploads/2020/11/10_JLL_OFFICE_Detail.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* line 33, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .blobCont {
   position: absolute;
   width: 100vw;
   height: 100vh;
 }
 
+/* line 39, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .blobs {
- -webkit-filter: url("#gooey");
- filter: url("#gooey");
+  -webkit-filter: url("#gooey");
+  filter: url("#gooey");
 }
 
+/* line 44, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .blob {
-	fill: white;
+  fill: white;
 }
 
-.blob3 , .blob7 , .blob11 ,.blob15 {
+/* line 48, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.blob3,
+.blob7,
+.blob11,
+.blob15 {
   animation: move 10s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
 
 @keyframes move {
-  0%   { transform: scale(1)   translate(10px, 30px); }
-  25%  { transform: scale(1.2)   translate(15px, 40px);}
-  50%  { transform: scale(1) translate(25px, 60px); }
-  75%  { transform: scale(1.2)   translate(15px, 40px);}
-  100% { transform: scale(1)   translate(10px, 30px); }
+  0% {
+    transform: scale(1) translate(10px, 30px);
+  }
+  25% {
+    transform: scale(1.2) translate(15px, 40px);
+  }
+  50% {
+    transform: scale(1) translate(25px, 60px);
+  }
+  75% {
+    transform: scale(1.2) translate(15px, 40px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 30px);
+  }
 }
 
-.blob2 , .blob10 , .blob14 ,.blob18 {
+/* line 74, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.blob2,
+.blob10,
+.blob14,
+.blob18 {
   animation: move2 10s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
 
 @keyframes move2 {
-  0%   { transform: scale(1)   translate(10px, 30px); }
-  25%  { transform: scale(0.8)   translate(15px, 30px);}
-  50%  { transform: scale(1) translate(25px, 30px); }
-  75%  { transform: scale(0.8)   translate(15px, 30px);}
-  100% { transform: scale(1)   translate(10px, 30px); }
+  0% {
+    transform: scale(1) translate(10px, 30px);
+  }
+  25% {
+    transform: scale(0.8) translate(15px, 30px);
+  }
+  50% {
+    transform: scale(1) translate(25px, 30px);
+  }
+  75% {
+    transform: scale(0.8) translate(15px, 30px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 30px);
+  }
 }
 
-.blob1 , .blob4 , .blob6 , .blob8 , .blob12 , .blob16 {
+/* line 100, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.blob1,
+.blob4,
+.blob6,
+.blob8,
+.blob12,
+.blob16 {
   animation: move3 10s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
 
 @keyframes move3 {
-  0%   { transform: scale(1)   translate(10px, 30px); }
-  25%  { transform: scale(1.05)   translate(10px, 35px);}
-  50%  { transform: scale(1) translate(10px, 50px); }
-  75%  { transform: scale(1.05)   translate(10px, 35px);}
-  100% { transform: scale(1)   translate(10px, 30px); }
+  0% {
+    transform: scale(1) translate(10px, 30px);
+  }
+  25% {
+    transform: scale(1.05) translate(10px, 35px);
+  }
+  50% {
+    transform: scale(1) translate(10px, 50px);
+  }
+  75% {
+    transform: scale(1.05) translate(10px, 35px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 30px);
+  }
 }
 
-.blob5 , .blob9, .blob13 , .blob17 {
+/* line 128, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.blob5,
+.blob9,
+.blob13,
+.blob17 {
   animation: move4 10s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
 
 @keyframes move4 {
-  0%   { transform: scale(1)   translate(10px, 30px); }
-  25%  { transform: scale(1.05)   translate(15px, 30px);}
-  50%  { transform: scale(1) translate(25px, 30px); }
-  75%  { transform: scale(1.05)   translate(15px, 30px);}
-  100% { transform: scale(1)   translate(10px, 30px); }
+  0% {
+    transform: scale(1) translate(10px, 30px);
+  }
+  25% {
+    transform: scale(1.05) translate(15px, 30px);
+  }
+  50% {
+    transform: scale(1) translate(25px, 30px);
+  }
+  75% {
+    transform: scale(1.05) translate(15px, 30px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 30px);
+  }
 }
 
-
+/* line 154, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #header {
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   padding-top: 10px;
@@ -102,7 +3177,8 @@ body {
   box-sizing: border-box;
 }
 
-.container_uno{
+/* line 163, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.container_uno {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -112,6 +3188,7 @@ body {
   margin-top: 110px;
 }
 
+/* line 173, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .logo {
   width: 250px;
   height: 140px;
@@ -119,17 +3196,19 @@ body {
   left: 70%;
 }
 
-@media (max-width: 768px){
-    .logo {
-      width: 175px;
-      height:98px;
-      position: relative;
-      left: 10px;
-    }
+@media (max-width: 768px) {
+  /* line 181, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .logo {
+    width: 175px;
+    height: 98px;
+    position: relative;
+    left: 10px;
+  }
 }
 
-.circle{
-  position:fixed;
+/* line 189, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.circle {
+  position: fixed;
   top: 50px;
   right: 30px;
   align-items: center;
@@ -143,8 +3222,9 @@ body {
   transition: 0.5s;
 }
 
-.circle:hover{
-  position:fixed;
+/* line 204, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.circle:hover {
+  position: fixed;
   top: 50px;
   align-items: center;
   justify-content: center;
@@ -158,8 +3238,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 219, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .circle {
-    position:fixed;
+    position: fixed;
     top: 30px;
     align-items: center;
     justify-content: center;
@@ -172,8 +3253,9 @@ body {
     border: 1px solid white;
     transition: 0.5s;
   }
-  .circle:hover{
-    position:fixed;
+  /* line 233, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .circle:hover {
+    position: fixed;
     top: 30px;
     align-items: center;
     justify-content: center;
@@ -187,19 +3269,23 @@ body {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  /* line 249, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .slogan {
     width: 400px;
   }
 }
-@media (max-width: 375px){
+
+@media (max-width: 375px) {
+  /* line 255, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .slogan {
     width: 300px;
   }
 }
 
-.arrow_down{
-  position:absolute;
+/* line 260, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.arrow_down {
+  position: absolute;
   right: 60px;
   bottom: 25px;
   z-index: 1;
@@ -207,7 +3293,8 @@ body {
   height: 20px;
 }
 
-.container_due{
+/* line 269, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.container_due {
   display: flex;
   flex-direction: column;
   padding-top: 200px;
@@ -215,7 +3302,8 @@ body {
   box-sizing: border-box;
 }
 
-.titoli{
+/* line 277, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.titoli {
   display: flex;
   flex-direction: row;
   padding: 5px;
@@ -226,7 +3314,8 @@ body {
   text-shadow: 2px 2px 8px black;
 }
 
-.paragrafo{
+/* line 288, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.paragrafo {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -234,17 +3323,19 @@ body {
   right: 40px;
   box-sizing: border-box;
   margin-top: 0;
-  padding-top:0;
+  padding-top: 0;
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 6px black;
 }
 
-@media (max-width: 768px){
-  .section_home{
+@media (max-width: 768px) {
+  /* line 303, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_home {
     height: 80vh;
   }
-  .container_due{
+  /* line 306, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .container_due {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -252,6 +3343,7 @@ body {
     box-sizing: border-box;
     font-size: 12px;
   }
+  /* line 314, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .paragrafo {
     display: flex;
     flex-direction: row;
@@ -260,14 +3352,15 @@ body {
     left: 48px;
     box-sizing: border-box;
     margin-top: 0;
-    padding-top:0;
+    padding-top: 0;
     color: white;
     font-weight: bold;
     font-size: 16px;
     text-shadow: 1px 1px 6px black;
   }
-  .arrow_down{
-    position:absolute;
+  /* line 328, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_down {
+    position: absolute;
     top: 74%;
     left: 60px;
     z-index: 1;
@@ -276,8 +3369,9 @@ body {
   }
 }
 
-@media (max-width: 375px){
-  .container_due{
+@media (max-width: 375px) {
+  /* line 339, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .container_due {
     display: flex;
     flex-direction: column;
     padding-top: 10px;
@@ -285,35 +3379,41 @@ body {
     box-sizing: border-box;
     font-size: 10px;
   }
+  /* line 347, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .paragrafo {
     opacity: 0;
   }
-  .arrow_down{
+  /* line 350, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_down {
     opacity: 0;
   }
 }
 
-.section_hero{
+/* line 355, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_hero {
   height: 100vh;
   background-color: black;
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
 }
 
-.container_tre{
+/* line 367, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.container_tre {
   display: flex;
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
 }
+
+/* line 374, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .intro_title {
   opacity: 0;
-  font-size: 130px ;
+  font-size: 130px;
   line-height: 130px;
   color: white;
   margin-top: 0;
@@ -324,11 +3424,13 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+/* line 388, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .description {
   opacity: 0;
   font-size: 30px;
   line-height: 35px;
-  color:white;
+  color: white;
   position: absolute;
   margin-top: 0;
   padding-top: 0;
@@ -336,11 +3438,13 @@ body {
   padding-right: 15%;
 }
 
-@media (max-width:768px) {
-  .section_hero{
+@media (max-width: 768px) {
+  /* line 401, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_hero {
     height: 80vh;
   }
-  .intro_title{
+  /* line 404, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .intro_title {
     opacity: 0;
     font-size: 40px;
     line-height: 40px;
@@ -353,11 +3457,12 @@ body {
     position: relative;
     overflow: hidden;
   }
+  /* line 417, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .description {
     opacity: 0;
     font-size: 20px;
     line-height: 24px;
-    color:white;
+    color: white;
     position: absolute;
     margin-top: 0;
     padding-top: 0;
@@ -366,15 +3471,17 @@ body {
   }
 }
 
-@media (max-width: 375px){
-  .section_hero{
+@media (max-width: 375px) {
+  /* line 431, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_hero {
     height: 70vh;
   }
+  /* line 434, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .description {
     opacity: 0;
     font-size: 16px;
     line-height: 18px;
-    color:white;
+    color: white;
     position: absolute;
     margin-top: 0;
     padding-top: 0;
@@ -383,47 +3490,52 @@ body {
   }
 }
 
-.section_about{
+/* line 447, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_about {
   height: 100vh;
   background-color: #DFE1DF;
   background-size: cover;
   background-position: center;
-  display:flex;
+  display: flex;
   flex-direction: column;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
 }
 
+/* line 459, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #change {
   transition: 1s;
 }
 
+/* line 463, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #change.colorchange {
   background-color: lightblue;
 }
 
-
+/* line 467, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #change.colorchange1 {
   background-color: lightgreen;
 }
 
-
+/* line 471, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #change.colorchange2 {
   background-color: pink;
 }
 
-.container_cinque{
+/* line 475, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.container_cinque {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top:0px;
+  margin-top: 0px;
   padding-top: 10px;
   padding-left: 180px;
   box-sizing: border-box;
 }
 
-.article_title{
+/* line 485, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.article_title {
   opacity: 0;
   font-size: 70px;
   line-height: 70px;
@@ -432,35 +3544,40 @@ body {
   margin-bottom: 0;
 }
 
-.arrow_right{
+/* line 494, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.arrow_right {
   position: relative;
   padding-left: 10px;
   width: 18px;
 }
 
-
-.link{
+/* line 500, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.link {
   padding-top: 225px;
   padding-left: 45px;
 }
 
-.linkname{
+/* line 505, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.linkname {
   color: black;
   text-decoration-color: none;
   text-decoration: none;
 }
+
+/* line 511, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .linkname:hover {
   text-decoration: underline;
 }
 
-.section_carousel{
+/* line 515, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_carousel {
   display: flex;
   box-sizing: border-box;
   overflow-x: scroll;
 }
 
-
-.section--preview{
+/* line 521, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section--preview {
   font-size: 60px;
   line-height: 70px;
   font-weight: bold;
@@ -473,6 +3590,7 @@ body {
   z-index: 0;
 }
 
+/* line 534, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .section--preview span h3 {
   float: left;
   opacity: 0%;
@@ -485,9 +3603,9 @@ body {
   bottom: 0;
   z-index: 999;
   transition: 0.6s;
-
 }
 
+/* line 548, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .section--preview:hover span h3 {
   display: block;
   z-index: 1;
@@ -495,32 +3613,38 @@ body {
   text-shadow: 2px 2px 8px black;
 }
 
-
+/* line 555, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .image--fluid {
   width: 450px;
   height: 100%;
 }
 
+/* line 560, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #one.colorchange {
   opacity: 50%;
 }
 
-#two.colorchange1{
+/* line 564, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+#two.colorchange1 {
   opacity: 50%;
 }
 
-#three.colorchange2{
+/* line 568, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+#three.colorchange2 {
   opacity: 50%;
 }
 
-@media (max-width:768px){
-  .section_about{
+@media (max-width: 768px) {
+  /* line 573, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_about {
     height: 80vh;
   }
-  .container_cinque{
+  /* line 576, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .container_cinque {
     padding-left: 20px;
   }
-  .article_title{
+  /* line 579, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .article_title {
     opacity: 0;
     font-size: 40px;
     line-height: 45px;
@@ -528,40 +3652,48 @@ body {
     padding-bottom: 20px;
     margin-bottom: 0;
   }
-  .arrow_right{
+  /* line 587, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_right {
     position: relative;
     padding-left: 10px;
     width: 18px;
   }
-  .link{
+  /* line 592, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .link {
     padding-top: 135px;
     padding-left: 25px;
   }
-  .linkname{
+  /* line 596, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .linkname {
     color: black;
     font-size: 12px;
     text-decoration-color: none;
     text-decoration: none;
   }
-  .section--preview{
+  /* line 602, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section--preview {
     margin-right: 75px;
   }
-  .section--preview img{
+  /* line 605, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section--preview img {
     width: 340px;
   }
+  /* line 608, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .section--preview span h3 {
-    font-size:45px;
+    font-size: 45px;
     line-height: 40px;
     text-shadow: 2px 2px 8px black;
     opacity: 1;
   }
 }
 
-@media (max-width: 375px){
-  .section_about{
+@media (max-width: 375px) {
+  /* line 617, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_about {
     height: 60vh;
   }
-  .article_title{
+  /* line 620, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .article_title {
     opacity: 0;
     font-size: 30px;
     line-height: 30px;
@@ -569,41 +3701,49 @@ body {
     padding-bottom: 20px;
     margin-bottom: 0;
   }
-  .link{
+  /* line 628, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .link {
     padding-top: 95px;
     padding-left: 5px;
   }
-  .linkname{
+  /* line 632, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .linkname {
     color: black;
     font-size: 10px;
     text-decoration-color: none;
     text-decoration: none;
   }
-  .arrow_right{
+  /* line 638, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_right {
     position: relative;
     padding-left: 5px;
     width: 14px;
   }
-  .section--preview{
+  /* line 643, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section--preview {
     margin-right: 75px;
   }
-  .section--preview img{
+  /* line 646, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section--preview img {
     width: 280px;
   }
+  /* line 649, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .section--preview span h3 {
-    font-size:25px;
+    font-size: 25px;
     line-height: 25px;
     text-shadow: 2px 2px 8px black;
     opacity: 1;
   }
 }
 
-.section_news{
+/* line 657, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_news {
   height: 150vh;
   background-color: black;
 }
 
-.container_sei{
+/* line 662, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.container_sei {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -613,7 +3753,8 @@ body {
   box-sizing: border-box;
 }
 
-.last_title{
+/* line 672, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.last_title {
   opacity: 0;
   font-size: 70px;
   line-height: 60px;
@@ -623,34 +3764,40 @@ body {
   padding-top: 30px;
 }
 
-.arrow_right_due{
+/* line 682, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.arrow_right_due {
   position: relative;
   padding-left: 10px;
   width: 18px;
 }
 
-.last_link{
+/* line 688, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.last_link {
   padding-top: 175px;
   padding-left: 65px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.last_linkname{
+/* line 695, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.last_linkname {
   color: white;
   text-decoration: none;
 }
 
-.last_linkname:hover{
+/* line 700, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.last_linkname:hover {
   text-decoration: underline;
 }
 
- .row_section--accordion{
+/* line 704, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.row_section--accordion {
   padding-left: 0;
   padding-bottom: 0px;
   margin-top: 55px;
 }
 
+/* line 710, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .data {
   padding-left: 25px;
   font-size: 20px;
@@ -658,7 +3805,8 @@ body {
   color: white;
 }
 
-.name{
+/* line 717, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.name {
   padding-left: 5px;
   padding-right: 0;
   margin-right: 0;
@@ -667,7 +3815,8 @@ body {
   color: white;
 }
 
-.subtitle{
+/* line 726, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.subtitle {
   padding-top: 25px;
   padding-right: 0;
   margin-right: 0;
@@ -676,6 +3825,7 @@ body {
   font-weight: normal;
 }
 
+/* line 735, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #first .data.hovermode {
   padding-left: 25px;
   font-size: 20px;
@@ -683,6 +3833,7 @@ body {
   color: lightgreen;
 }
 
+/* line 742, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #first .name.hovermode {
   padding-left: 5px;
   padding-right: 0;
@@ -692,6 +3843,7 @@ body {
   color: lightgreen;
 }
 
+/* line 751, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #first .subtitle.hovermode {
   padding-top: 25px;
   padding-right: 0;
@@ -701,6 +3853,7 @@ body {
   font-weight: normal;
 }
 
+/* line 760, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #second .data.hovermode {
   padding-left: 25px;
   font-size: 20px;
@@ -708,6 +3861,7 @@ body {
   color: pink;
 }
 
+/* line 767, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #second .name.hovermode {
   padding-left: 5px;
   padding-right: 0;
@@ -717,6 +3871,7 @@ body {
   color: pink;
 }
 
+/* line 776, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #second .subtitle.hovermode {
   padding-top: 25px;
   padding-right: 0;
@@ -726,6 +3881,7 @@ body {
   font-weight: normal;
 }
 
+/* line 785, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #third .data.hovermode {
   padding-left: 25px;
   font-size: 20px;
@@ -733,6 +3889,7 @@ body {
   color: lightblue;
 }
 
+/* line 792, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #third .name.hovermode {
   padding-left: 5px;
   padding-right: 0;
@@ -742,6 +3899,7 @@ body {
   color: lightblue;
 }
 
+/* line 801, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 #third .subtitle.hovermode {
   padding-top: 25px;
   padding-right: 0;
@@ -751,60 +3909,69 @@ body {
   font-weight: normal;
 }
 
-.imageuno img{
+/* line 810, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.imageuno img {
   opacity: 0;
   width: 300px;
-  height:auto;
+  height: auto;
   padding-right: 5px;
   transition: 1s;
 }
 
-#imageone.hovermode img{
+/* line 818, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+#imageone.hovermode img {
   opacity: 1;
   width: 350px;
-  height:auto;
+  height: auto;
   padding-right: 5px;
-  z-index: 1
+  z-index: 1;
 }
 
-.imagedue img{
-  opacity:0;
+/* line 826, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.imagedue img {
+  opacity: 0;
   width: 300px;
-  height:auto;
+  height: auto;
   padding-right: 5px;
   transition: 1s;
 }
 
-#imagetwo.hovermode img{
+/* line 834, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+#imagetwo.hovermode img {
   opacity: 1;
   width: 350px;
   height: auto;
   padding-right: 5px;
 }
 
-.imagetre img{
+/* line 841, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.imagetre img {
   opacity: 0;
   width: 300px;
-  height:auto;
+  height: auto;
   padding-right: 5px;
   transition: 1s;
 }
 
-#imagethree.hovermode img{
+/* line 849, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+#imagethree.hovermode img {
   opacity: 1;
   width: 350px;
   height: auto;
   padding-right: 5px;
 }
-@media (max-width: 768px){
-  .section_news{
+
+@media (max-width: 768px) {
+  /* line 857, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_news {
     height: 100vh;
   }
-
-  .container_sei{
+  /* line 860, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .container_sei {
     padding-left: 25px;
   }
-  .last_title{
+  /* line 863, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_title {
     opacity: 0;
     font-size: 35px;
     line-height: 40px;
@@ -813,33 +3980,34 @@ body {
     margin-bottom: 0;
     padding-top: 30px;
   }
-
-  .arrow_right_due{
+  /* line 872, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_right_due {
     position: relative;
     padding-left: 10px;
     width: 18px;
   }
-
-  .last_link{
+  /* line 877, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_link {
     padding-top: 110px;
     padding-left: 20px;
     padding-bottom: 0;
     margin-bottom: 0;
   }
-
-  .last_linkname{
+  /* line 883, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_linkname {
     color: white;
     font-size: 14px;
     text-decoration: none;
   }
+  /* line 888, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .data {
     padding-left: 15px;
     font-size: 12px;
     font-weight: bold;
     color: white;
   }
-
-  .name{
+  /* line 894, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .name {
     padding-left: 5px;
     padding-right: 0;
     margin-right: 0;
@@ -847,8 +4015,8 @@ body {
     font-weight: bold;
     color: white;
   }
-
-  .subtitle{
+  /* line 902, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .subtitle {
     padding-top: 25px;
     padding-right: 0;
     margin-right: 0;
@@ -856,13 +4024,14 @@ body {
     color: white;
     font-weight: normal;
   }
+  /* line 910, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .data.hovermode {
     padding-left: 15px;
     font-size: 12px;
     font-weight: bold;
     color: lightgreen;
   }
-
+  /* line 916, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -871,7 +4040,7 @@ body {
     font-weight: bold;
     color: lightgreen;
   }
-
+  /* line 924, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -880,14 +4049,14 @@ body {
     color: lightgreen;
     font-weight: normal;
   }
-
+  /* line 932, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .data.hovermode {
     padding-left: 15px;
     font-size: 12px;
     font-weight: bold;
     color: pink;
   }
-
+  /* line 938, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -896,7 +4065,7 @@ body {
     font-weight: bold;
     color: pink;
   }
-
+  /* line 946, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -905,14 +4074,14 @@ body {
     color: pink;
     font-weight: normal;
   }
-
+  /* line 954, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .data.hovermode {
     padding-left: 15px;
     font-size: 12px;
     font-weight: bold;
     color: lightblue;
   }
-
+  /* line 960, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -921,7 +4090,7 @@ body {
     font-weight: bold;
     color: lightblue;
   }
-
+  /* line 968, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -930,26 +4099,30 @@ body {
     color: lightblue;
     font-weight: normal;
   }
-  .row_section--accordion img{
+  /* line 976, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .row_section--accordion img {
     opacity: 1;
     position: relative;
     width: 110px;
   }
-  #imageone.hovermode img{
+  /* line 981, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imageone.hovermode img {
     opacity: 1;
     width: 110px;
-    height:auto;
+    height: auto;
     padding-right: 5px;
-    z-index: 1
+    z-index: 1;
   }
-  #imagetwo.hovermode img{
+  /* line 988, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imagetwo.hovermode img {
     opacity: 1;
     width: 110px;
-    height:auto;
+    height: auto;
     padding-right: 5px;
-    z-index: 1
+    z-index: 1;
   }
-  #imagethree.hovermode img{
+  /* line 995, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imagethree.hovermode img {
     opacity: 1;
     width: 110px;
     height: auto;
@@ -957,11 +4130,13 @@ body {
   }
 }
 
-@media (max-width: 375px){
-  .section_news{
+@media (max-width: 375px) {
+  /* line 1004, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_news {
     height: 80vh;
   }
-  .last_title{
+  /* line 1007, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_title {
     opacity: 0;
     font-size: 25px;
     line-height: 30px;
@@ -970,35 +4145,38 @@ body {
     margin-bottom: 0;
     padding-top: 30px;
   }
-  .arrow_right_due{
+  /* line 1016, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .arrow_right_due {
     position: relative;
     padding-left: 5px;
     width: 14px;
   }
-
-  .last_link{
+  /* line 1021, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_link {
     padding-top: 90px;
     padding-left: 5px;
     padding-bottom: 0;
     margin-bottom: 0;
   }
-
-  .last_linkname{
+  /* line 1027, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .last_linkname {
     color: white;
     font-size: 12px;
     text-decoration: none;
   }
-  .row_section--accordion{
+  /* line 1032, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .row_section--accordion {
     margin-top: 20px;
   }
+  /* line 1035, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .data {
     padding-left: 15px;
     font-size: 10px;
     font-weight: bold;
     color: white;
   }
-
-  .name{
+  /* line 1041, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .name {
     padding-left: 5px;
     padding-right: 0;
     margin-right: 0;
@@ -1006,8 +4184,8 @@ body {
     font-weight: bold;
     color: white;
   }
-
-  .subtitle{
+  /* line 1049, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .subtitle {
     padding-top: 25px;
     padding-right: 0;
     margin-right: 0;
@@ -1015,13 +4193,14 @@ body {
     color: white;
     font-weight: normal;
   }
+  /* line 1057, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .data.hovermode {
     padding-left: 15px;
     font-size: 10px;
     font-weight: bold;
     color: lightgreen;
   }
-
+  /* line 1063, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -1030,7 +4209,7 @@ body {
     font-weight: bold;
     color: lightgreen;
   }
-
+  /* line 1071, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #first .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -1039,14 +4218,14 @@ body {
     color: lightgreen;
     font-weight: normal;
   }
-
+  /* line 1079, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .data.hovermode {
     padding-left: 15px;
     font-size: 10px;
     font-weight: bold;
     color: pink;
   }
-
+  /* line 1085, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -1055,7 +4234,7 @@ body {
     font-weight: bold;
     color: pink;
   }
-
+  /* line 1093, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #second .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -1064,14 +4243,14 @@ body {
     color: pink;
     font-weight: normal;
   }
-
+  /* line 1101, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .data.hovermode {
     padding-left: 15px;
     font-size: 10px;
     font-weight: bold;
     color: lightblue;
   }
-
+  /* line 1107, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .name.hovermode {
     padding-left: 5px;
     padding-right: 0;
@@ -1080,7 +4259,7 @@ body {
     font-weight: bold;
     color: lightblue;
   }
-
+  /* line 1115, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   #third .subtitle.hovermode {
     padding-top: 25px;
     padding-right: 0;
@@ -1089,30 +4268,34 @@ body {
     color: lightblue;
     font-weight: normal;
   }
-  .row_section--accordion img{
+  /* line 1123, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .row_section--accordion img {
     opacity: 1;
     padding-right: 0px;
     padding-left: 5px;
     position: relative;
     width: 75px;
   }
-  #imageone.hovermode img{
+  /* line 1130, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imageone.hovermode img {
     opacity: 1;
     width: 75px;
-    height:auto;
+    height: auto;
     padding-right: 0px;
     padding-left: 5px;
-    z-index: 1
+    z-index: 1;
   }
-  #imagetwo.hovermode img{
+  /* line 1138, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imagetwo.hovermode img {
     opacity: 1;
     width: 75px;
-    height:auto;
+    height: auto;
     padding-right: 0px;
     padding-left: 5px;
-    z-index: 1
+    z-index: 1;
   }
-  #imagethree.hovermode img{
+  /* line 1146, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  #imagethree.hovermode img {
     opacity: 1;
     width: 75px;
     height: auto;
@@ -1121,22 +4304,25 @@ body {
   }
 }
 
-footer{
+/* line 1155, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+footer {
   background-color: black;
   height: 45vh;
   border: 1px solid black;
 }
 
-.section_logo img{
+/* line 1161, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_logo img {
   width: 350px;
   height: auto;
   padding-left: 45px;
   margin-left: 0;
-  padding-top:15px;
+  padding-top: 15px;
   margin-top: 15px;
 }
 
-.info_footer{
+/* line 1170, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.info_footer {
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -1144,48 +4330,56 @@ footer{
   margin-left: 0;
 }
 
-.section_menu{
+/* line 1178, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_menu {
   color: white;
   font-size: 20px;
   font-weight: bold;
-  padding-left:80px;
+  padding-left: 80px;
   margin-left: 0;
-  padding-top:45px;
+  padding-top: 45px;
   margin-top: 15px;
 }
 
-.lista_menu a{
+/* line 1188, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_menu a {
   text-decoration: none;
   color: white;
 }
 
-.lista_menu{
+/* line 1193, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_menu {
   list-style-type: none;
 }
 
-.lista_menu a:hover{
+/* line 1197, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_menu a:hover {
   color: lightgreen;
 }
 
-.section_social{
+/* line 1201, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_social {
   color: white;
   font-size: 20px;
   font-weight: normal;
-  padding-left:60px;
+  padding-left: 60px;
   margin-left: 0;
-  padding-top:65px;
+  padding-top: 65px;
   margin-top: 15px;
 }
 
-.lista_social a{
+/* line 1211, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_social a {
   color: white;
 }
 
-.lista_social a:hover{
+/* line 1215, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_social a:hover {
   color: lightblue;
 }
 
-.lista_social{
+/* line 1219, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_social {
   font-size: 16px;
   list-style-type: none;
   text-align: left;
@@ -1193,33 +4387,38 @@ footer{
   margin-left: 0;
 }
 
-.section_find{
+/* line 1227, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_find {
   color: white;
   font-size: 20px;
   font-weight: normal;
-  padding-left:25px;
+  padding-left: 25px;
   padding-right: 0px;
   margin-left: 0;
-  margin-right:0px;
-  padding-top:65px;
+  margin-right: 0px;
+  padding-top: 65px;
   margin-top: 15px;
 }
 
-.indirizzo_due, .indirizzo_uno{
+/* line 1239, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.indirizzo_due,
+.indirizzo_uno {
   font-size: 16px;
 }
 
-.section_subscribe{
+/* line 1244, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.section_subscribe {
   color: white;
   font-size: 20px;
   font-weight: bold;
-  padding-left:100px;
+  padding-left: 100px;
   margin-left: 0;
-  padding-top:65px;
+  padding-top: 65px;
   margin-top: 15px;
 }
 
-.lista_subscribe{
+/* line 1254, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+.lista_subscribe {
   list-style-type: none;
   text-align: left;
   padding-left: 0;
@@ -1227,6 +4426,7 @@ footer{
   line-height: 10px;
 }
 
+/* line 1262, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .mail {
   font-size: 16px;
   color: grey;
@@ -1234,25 +4434,30 @@ footer{
   text-decoration: underline;
 }
 
+/* line 1269, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .getnow {
   font-size: 16px;
   color: white;
   font-weight: normal;
 }
 
+/* line 1275, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
 .sub {
   text-decoration: none;
   color: grey;
 }
 
-@media (max-width: 768px){
-  footer{
+@media (max-width: 768px) {
+  /* line 1281, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  footer {
     height: 40vh;
   }
-  .section_logo img{
+  /* line 1284, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_logo img {
     opacity: 0;
   }
-  .section_menu{
+  /* line 1287, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_menu {
     color: white;
     font-size: 12px;
     line-height: 30px;
@@ -1260,69 +4465,81 @@ footer{
     position: absolute;
     padding-left: 0;
     margin-left: 0;
-    padding-top:3px;
+    padding-top: 3px;
     margin-top: 0px;
   }
+  /* line 1298, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .section_social {
     color: white;
     font-size: 16px;
     font-weight: normal;
-    padding-left:50px;
+    padding-left: 50px;
     margin-left: 0;
-    padding-top:20px;
+    padding-top: 20px;
     margin-top: 0px;
   }
-  .lista_social{
+  /* line 1307, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .lista_social {
     font-size: 12px;
     list-style-type: none;
     text-align: left;
     padding-left: 0;
     margin-left: 0;
   }
-  .section_find{
+  /* line 1314, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_find {
     color: white;
     font-size: 16px;
     font-weight: normal;
-    padding-left:55px;
+    padding-left: 55px;
     padding-right: 0px;
     margin-left: 0;
-    padding-top:20px;
+    padding-top: 20px;
     margin-top: 0px;
   }
-  .indirizzo_due, .indirizzo_uno{
+  /* line 1324, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .indirizzo_due,
+  .indirizzo_uno {
     font-size: 12px;
   }
-  .section_subscribe{
+  /* line 1328, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_subscribe {
     color: white;
     font-size: 16px;
     font-weight: bold;
-    padding-left:20px;
+    padding-left: 20px;
     margin-left: 0;
-    padding-top:20px;
-    margin-top:0px;
+    padding-top: 20px;
+    margin-top: 0px;
   }
+  /* line 1337, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .mail {
     font-size: 12px;
     color: grey;
     font-weight: normal;
     text-decoration: underline;
   }
+  /* line 1343, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .getnow {
     font-size: 12px;
     color: white;
     font-weight: normal;
   }
 }
-@media (max-width: 375px){
-  footer{
+
+@media (max-width: 375px) {
+  /* line 1351, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  footer {
     height: 30vh;
   }
-  .section_logo img{
+  /* line 1354, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_logo img {
     opacity: 0;
     margin: 0;
     padding: 0;
   }
-  .section_menu{
+  /* line 1359, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_menu {
     color: white;
     font-size: 10px;
     line-height: 18px;
@@ -1330,56 +4547,66 @@ footer{
     position: absolute;
     padding-left: 0;
     margin-left: 0;
-    padding-top:35px;
+    padding-top: 35px;
     margin-top: 0px;
   }
+  /* line 1370, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .section_social {
     color: white;
     font-size: 10px;
     font-weight: normal;
-    padding-left:50px;
+    padding-left: 50px;
     margin-left: 0;
-    padding-top:45px;
+    padding-top: 45px;
     margin-top: 0px;
   }
-  .lista_social{
+  /* line 1379, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .lista_social {
     font-size: 10px;
     list-style-type: none;
     text-align: left;
     padding-left: 0;
     margin-left: 0;
   }
-  .section_find{
+  /* line 1386, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_find {
     color: white;
     font-size: 10px;
     font-weight: normal;
-    padding-left:55px;
+    padding-left: 55px;
     padding-right: 0px;
     margin-left: 0;
-    padding-top:45px;
+    padding-top: 45px;
     margin-top: 0px;
   }
-  .indirizzo_due, .indirizzo_uno{
+  /* line 1396, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .indirizzo_due,
+  .indirizzo_uno {
     font-size: 8px;
   }
-  .section_subscribe{
+  /* line 1400, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
+  .section_subscribe {
     color: white;
     font-size: 10px;
     font-weight: bold;
-    padding-left:20px;
+    padding-left: 20px;
     margin-left: 0;
-    padding-top:45px;
-    margin-top:0px;
+    padding-top: 45px;
+    margin-top: 0px;
   }
+  /* line 1409, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .mail {
     font-size: 8px;
     color: grey;
     font-weight: normal;
     text-decoration: underline;
   }
+  /* line 1415, ../../../../../../../../../../../../../Users/claricemirandola/projects/prova/sass/index.scss */
   .getnow {
     font-size: 6px;
     color: white;
     font-weight: normal;
   }
 }
+
+/*# sourceMappingURL=index.css.map */
